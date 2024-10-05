@@ -59,9 +59,20 @@ li {
     margin-left: 112px;
     width: 289px;
     height: 40px;
-
 }
+
 .profile {
     justify-content: flex-end;
     margin-left: 320px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.link {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.activeLink {
+    text-decoration: underline;
 }

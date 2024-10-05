@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    height: 430px;
+    margin-top: 288px;
+    margin-left: 760px;
+    margin-right: 760px;
+}
+
+.header {
+    text-align: center;
+    height: 30px;
+    color: rgba(242, 242, 243, 1);
+    margin-bottom: 24px;
+}
+
+.noRegister {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 56px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.button-register {
+    width: 56px;
+}
+
+.ifRegister {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    height: 24px;
+}
+.link {
+    text-decoration: none;
+    color: rgba(76, 76, 255, 1);
+}

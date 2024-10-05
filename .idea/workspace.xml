@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52c405d2-0804-489f-a0af-19296d0309a4" name="Changes" comment="sprint 2/ step 1">
-      <change afterPath="$PROJECT_DIR$/src/api/api-config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/request-response.js" afterDir="false" />
+    <list default="true" id="52c405d2-0804-489f-a0af-19296d0309a4" name="Changes" comment="sprint 3/ step 1 fix 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/burger-constructor/burger-constructor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/burger-constructor/burger-constructor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/actions/action-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/actions/action-types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/actions/constructor-actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/actions/constructor-actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/actions/ingredients-actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/actions/ingredients-actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/actions/order-actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/actions/order-actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/reducers/constructor-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/reducers/constructor-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/reducers/ingredients-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/reducers/ingredients-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/app.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/modal/ingredient-details/ingrdient-detail-page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/modal/ingredient-details/ingredient-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modal/ingredient-details/ingredient-details.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/modal/ingredient-details/ingredient-details.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modal/ingredient-details/ingredient-details.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,15 +21,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JSX File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="sprint-1/step-2" />
+        <entry key="$PROJECT_DIR$" value="sprint-2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,26 +49,43 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/api/request-response.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/components/app-header/app-header.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/app/app-wrapper.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/app/app.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/components/burger-constructor/burger-constructor.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/components/burger-constructor/draggable-ingredient.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/components/burger-ingredients/burger-ingredients.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/components/burger-ingredients/ingredient.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/forgor-password/forgot-password.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/login/login.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/modal/ingredient-details/ingrdient-detail-page.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/components/modal/ingredient-details/ingredient-details.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/components/modal/modal-overlay.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/components/modal/modal.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/components/modal/order-details/order-details.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/profile/profile.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/protected-element/protected-route-element.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/protected-element/restricted-route.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/registration/registration.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/reset-password/reset-password.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/types/common.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/hooks/use-modal.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/services/actions/action-types.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/services/actions/auth-actions.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/services/actions/constructor-actions.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/services/actions/ingredients-actions.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/services/actions/order-actions.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/services/actions/password-actions.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/services/actions/profile-actions.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/services/reducers/auth-reducer.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/services/reducers/constructor-reducer.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/services/reducers/ingredients-reducer.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/services/reducers/password-reducer.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/services/reducers/profile-reducer.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/services/reducers/root-reducer.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/services/store.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -85,30 +98,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "#4 on sprint-2",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/tata/IdeaProjects/react-burger/src/api",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "npm.build.executor": "Run",
-    "npm.npm start.executor": "Run",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "settings.nodejs",
-    "ts.external.directory.path": "/Applications/IntelliJ IDEA.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;#5 on sprint-3/step-1&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/tata/IdeaProjects/react-burger/src/api&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.npm start.executor&quot;: &quot;Run&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.nodejs&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/IntelliJ IDEA.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/api" />
@@ -116,6 +129,7 @@
       <recent name="$PROJECT_DIR$/src/components/modal/ingredient-details" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/pages" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -188,7 +202,23 @@
       <workItem from="1725799472657" duration="12577000" />
       <workItem from="1725949755492" duration="25945000" />
       <workItem from="1726131452704" duration="704000" />
-      <workItem from="1726156839800" duration="5292000" />
+      <workItem from="1726156839800" duration="5805000" />
+      <workItem from="1726664813633" duration="3836000" />
+      <workItem from="1726668663325" duration="2555000" />
+      <workItem from="1726766113109" duration="2545000" />
+      <workItem from="1726841331324" duration="10063000" />
+      <workItem from="1726921485196" duration="180000" />
+      <workItem from="1726922069564" duration="6585000" />
+      <workItem from="1727105755407" duration="1458000" />
+      <workItem from="1727185113823" duration="24141000" />
+      <workItem from="1727435761921" duration="2299000" />
+      <workItem from="1727438077958" duration="11649000" />
+      <workItem from="1727538231800" duration="13848000" />
+      <workItem from="1727621445247" duration="14739000" />
+      <workItem from="1727789450714" duration="13328000" />
+      <workItem from="1727978203269" duration="11644000" />
+      <workItem from="1728046735745" duration="6854000" />
+      <workItem from="1728138116305" duration="1401000" />
     </task>
     <task id="LOCAL-00001" summary="sprint 1/ step 1">
       <option name="closed" value="true" />
@@ -230,7 +260,31 @@
       <option name="project" value="LOCAL" />
       <updated>1726061125112</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="sprint 2/ step 2 fix">
+      <option name="closed" value="true" />
+      <created>1726163139916</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1726163139916</updated>
+    </task>
+    <task id="LOCAL-00007" summary="sprint 3/ step 1 fix">
+      <option name="closed" value="true" />
+      <created>1727800605819</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727800605819</updated>
+    </task>
+    <task id="LOCAL-00008" summary="sprint 3/ step 1 fix 1">
+      <option name="closed" value="true" />
+      <created>1728051902891</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1728051902891</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +307,10 @@
     <MESSAGE value="sprint 1/ step 2" />
     <MESSAGE value="sprint 1/ step 2&#10;fix" />
     <MESSAGE value="sprint 2/ step 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="sprint 2/ step 1" />
+    <MESSAGE value="sprint 2/ step 2 fix" />
+    <MESSAGE value="sprint 3/ step 1 fix" />
+    <MESSAGE value="sprint 3/ step 1 fix 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="sprint 3/ step 1 fix 1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,25 +1,27 @@
 .modalContent {
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    align-items: center;
 }
+
 .ingredientImage {
     width: 480px;
     height: 240px;
     margin-left: 100px;
     margin-right: 100px;
 }
-.imageContainer{
+
+.imageContainer {
     display: flex;
     justify-content: center;
 }
+
 .ingredientName {
     display: flex;
     justify-content: center;
     margin-top: 16px;
     white-space: nowrap;
 }
+
 .characteristics {
     display: flex;
     flex-direction: row;
@@ -38,10 +40,18 @@
     height: 56px;
     gap: 8px;
 }
+
 .label {
     text-align: center;
 }
 
 .value {
     text-align: center;
+}
+
+.ingredientPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 220px;
 }

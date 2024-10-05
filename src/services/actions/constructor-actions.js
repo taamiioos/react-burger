@@ -6,15 +6,10 @@ import {v4 as uuidv4} from 'uuid';
 export const addIngredient = (item) => {
     return {
         type: ADD_INGREDIENT, payload: {
-            ...item, uniqueId: uuidv4()
-        }
-    };
-};
+            ...item, uniqueId: uuidv4()}};};
 export const clearConstructor = () => {
     return {
-        type: CLEAR_CONSTRUCTOR
-    };
-};
+        type: CLEAR_CONSTRUCTOR};};
 
 export const removeIngredient = (index) => ({
     type: REMOVE_INGREDIENT, payload: index

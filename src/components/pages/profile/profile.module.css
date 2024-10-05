@@ -1,0 +1,48 @@
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu {
+    margin-right: 68px;
+    display: flex;
+    flex-direction: column;
+}
+
+.menuElement {
+    width: 320px;
+    height: 24px;
+    text-align: left;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    margin-top: 228px;
+    margin-right: 380px;
+}
+
+.textProfile {
+    margin-top: 90px;
+    width: 320px;
+    height: 48px;
+    text-align: left;
+
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 400px;
+}

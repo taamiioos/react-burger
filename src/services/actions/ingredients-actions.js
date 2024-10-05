@@ -1,5 +1,13 @@
-import {SET_TAB, SET_CURRENT_INGREDIENT, CLEAR_CURRENT_INGREDIENT, INCREMENT_INGREDIENT_COUNT,
-    DECREMENT_INGREDIENT_COUNT, INGREDIENTS_REQUEST, INGREDIENTS_SUCCESS, INGREDIENTS_ERROR} from './action-types';
+import {
+    SET_TAB,
+    SET_CURRENT_INGREDIENT,
+    CLEAR_CURRENT_INGREDIENT,
+    INCREMENT_INGREDIENT_COUNT,
+    DECREMENT_INGREDIENT_COUNT,
+    INGREDIENTS_REQUEST,
+    INGREDIENTS_SUCCESS,
+    INGREDIENTS_ERROR
+} from './action-types';
 import {request} from '../../api/request-response'
 
 export const incrementIngredientCount = (ingredientId) => ({
@@ -23,18 +31,16 @@ export const setTab = (tab) => ({
 });
 export const setIngredients = () => {
     return (dispatch) => {
-        dispatch({ type: INGREDIENTS_REQUEST });
+        dispatch({type: INGREDIENTS_REQUEST});
         request('/ingredients')
             .then(res => {
                 dispatch({
-                    type: INGREDIENTS_SUCCESS,
-                    payload: res.data,
+                    type: INGREDIENTS_SUCCESS, payload: res.data,
                 });
             })
             .catch(error => {
                 dispatch({
-                    type: INGREDIENTS_ERROR,
-                    payload: error.message
+                    type: INGREDIENTS_ERROR, payload: error.message
                 });
                 console.log(`Ошибочка при запросе: ${error}`);
             });
