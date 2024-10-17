@@ -5,12 +5,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52c405d2-0804-489f-a0af-19296d0309a4" name="Changes" comment="sprint 3/ step 1 fix 1">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/api-config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/types/components-types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/reducers/auth-reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/types/auth-types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/types/constructor-types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/types/ingredients-types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/types/order-types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/types/password-types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/types/profile-types.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app/app.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/modal/ingredient-details/ingrdient-detail-page.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/modal/ingredient-details/ingredient-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modal/ingredient-details/ingredient-details.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/modal/ingredient-details/ingredient-details.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modal/ingredient-details/ingredient-details.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/api-config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/request-response.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/request-response.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app-header/app-header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app-header/app-header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/app-wrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app-wrapper.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/burger-constructor/burger-constructor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/burger-constructor/burger-constructor.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/burger-constructor/draggable-ingredient.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/burger-constructor/draggable-ingredient.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/burger-ingredients/burger-ingredients.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/burger-ingredients/burger-ingredients.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/burger-ingredients/ingredient.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/burger-ingredients/ingredient.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/modal/ingredient-details/ingredient-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modal/ingredient-details/ingredient-details.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/modal/modal-overlay.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modal/modal-overlay.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/modal/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modal/modal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/modal/order-details/order-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modal/order-details/order-details.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/404page/404page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/404page/404page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/forgot-password/forgot-password.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/forgot-password/forgot-password.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/login/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/login/login.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/profile/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/profile/profile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/registration/registration.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/registration/registration.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/reset-password/reset-password.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/reset-password/reset-password.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/protected-element/protected-route-element.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/protected-element/protected-route-element.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/protected-element/restricted-route.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/protected-element/restricted-route.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/types/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/use-modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/use-modal.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/actions/action-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/actions/action-types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/actions/auth-actions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/actions/constructor-actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/actions/constructor-actions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/actions/ingredients-actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/actions/ingredients-actions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/actions/order-actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/actions/order-actions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/actions/password-actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/actions/password-actions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/actions/profile-actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/actions/profile-actions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/reducers/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/actions/auth-actions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/reducers/constructor-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/reducers/constructor-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/reducers/ingredients-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/reducers/ingredients-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/reducers/order-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/reducers/order-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/reducers/password-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/reducers/password-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/reducers/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/reducers/profile-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/reducers/root-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/reducers/root-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,13 +68,14 @@
         <option value="JSX File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="sprint-2" />
+        <entry key="$PROJECT_DIR$" value="sprint-3/step-1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -91,7 +137,7 @@
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2kyPOxsVcWOGMThJcrYmIj0FJtQ" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -102,9 +148,10 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;#5 on sprint-3/step-1&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;sprint-4/step-1&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/tata/IdeaProjects/react-burger/src/api&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/tata/IdeaProjects/react-burger3/src/components/app&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -124,9 +171,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/api" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/components/modal/ingredient-details" />
+      <recent name="$PROJECT_DIR$/src/components/app" />
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/components/app-header" />
+      <recent name="$PROJECT_DIR$/src/components/burger-constructor" />
+      <recent name="$PROJECT_DIR$/src/components/burger-ingredients" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components/pages" />
@@ -219,6 +268,13 @@
       <workItem from="1727978203269" duration="11644000" />
       <workItem from="1728046735745" duration="6854000" />
       <workItem from="1728138116305" duration="1401000" />
+      <workItem from="1729023581215" duration="655000" />
+      <workItem from="1729024242373" duration="5604000" />
+      <workItem from="1729029871433" duration="1405000" />
+      <workItem from="1729098835627" duration="3942000" />
+      <workItem from="1729102791843" duration="9967000" />
+      <workItem from="1729112805798" duration="2451000" />
+      <workItem from="1729155239216" duration="2172000" />
     </task>
     <task id="LOCAL-00001" summary="sprint 1/ step 1">
       <option name="closed" value="true" />
